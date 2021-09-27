@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import FirstApp from "./components/FirstApp";
+import CounterApp from "./components/CounterApp";
+import { GifExpertApp } from "./components/GifExpertApp";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         >
           Learn React
         </a>
+        <FirstApp />
+        <CounterApp value={1} />
+        <GifExpertApp />
       </header>
     </div>
   );
